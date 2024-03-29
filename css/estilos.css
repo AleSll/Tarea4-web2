@@ -1,0 +1,104 @@
+body{
+  background-color: rgb(167, 143, 216);
+}
+p{
+  font-family: "Edu NSW ACT Foundation", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+}
+.nav-link {
+  font-family: "Edu NSW ACT Foundation", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: antiquewhite;
+}
+
+.tac-one-regular {
+    font-family: "Tac One", sans-serif;
+    font-weight: 400;
+    font-style:normal;
+    text-align: center;
+    color: white;
+    background-color: blueviolet;
+
+  }
+
+
+  .parisienne-regular {
+    font-family: "Parisienne", cursive;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 15px;
+    color: wheat;
+  }
+  
+
+.navbar-brand{
+  color: azure;
+}
+/* Cambiar el fondo primario a un color personalizado */
+.bg-custom {
+  background-color:rgb(204, 110, 204) ; /* Reemplaza "your-color-code" con el código de color deseado */
+}
+
+.container-fluid
+{
+  height: 40px;
+}
+
+/* Cambiar el color del enlace activo */
+.navbar-nav .nav-link.active {
+  color: #fff; /* Color del texto del enlace activo */
+  /* Cambiar el tipo de letra del enlace activo */
+  font-family: Arial, sans-serif; /* Fuente del texto del enlace activo */
+}
+
+
+/* Estilo para cambiar el color de los bordes del carrusel */
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: #000; /* Cambiar el color de fondo de los controles */
+    color: #fff; /* Cambiar el color del texto de los controles */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%); /* Invertir el color de las flechas del carrusel */
+}
+
+.row
+{
+    background-color: rgb(48, 42, 13);
+    margin: 5px;
+}
+.roww
+{
+    background-color: blueviolet;
+
+    margin: 5px;
+}
+.col{
+    background-color: plum;
+    margin: 5px;
+}
+
+/* Estilos para el botón personalizado */
+.bt {
+  background-color: #600ea3; /* Color de fondo del botón */
+  color: #ffffff; /* Color del texto del botón */
+  border: 2px solid #8e53ec; /* Borde del botón */
+  border-radius: 10px; /* Radio de los bordes */
+  padding: 10px 20px; /* Espaciado interno del botón */
+  font-size: 18px; /* Tamaño de la fuente */
+  width: 300px;
+  margin: auto;
+}
+
+/* Estilos al pasar el mouse sobre el botón */
+.bt:hover {
+  background-color: #e517ec; /* Nuevo color de fondo al pasar el mouse */
+  color: #fff; /* Nuevo color del texto al pasar el mouse */
+}
